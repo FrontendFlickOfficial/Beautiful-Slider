@@ -68,14 +68,14 @@ header a{
 .carousel .list .item .topic{
     color: #f1683a;
 }
-.carousel .list .item .button{
+.carousel .list .item .buttons{
     display: grid;
     grid-template-columns: repeat(2, 130px);
     grid-template-rows: 40px;
     gap: 5px;
     margin-top: 20px;
 }
-.carousel .list .item .button button{
+.carousel .list .item .buttons button{
     border: none;
     background-color: #eee;
     letter-spacing: 3px;
@@ -83,7 +83,7 @@ header a{
     font-weight: 500;
     cursor: pointer;
 }
-.carousel .list .item .button button:nth-child(2){
+.carousel .list .item .buttons button:nth-child(2){
     background-color: transparent;
     border: 1px solid #fff;
     color: #eee;
@@ -163,7 +163,7 @@ header a{
 .carousel .list .item:nth-child(1) .content .title,
 .carousel .list .item:nth-child(1) .content .topic,
 .carousel .list .item:nth-child(1) .content .des,
-.carousel .list .item:nth-child(1) .content .button
+.carousel .list .item:nth-child(1) .content .buttons
 {
     transform: translateY(50px);
     filter: blur(20px);
@@ -186,7 +186,7 @@ header a{
 .carousel .list .item:nth-child(1) .content .des{
     animation-delay: 1.6s!important;
 }
-.carousel .list .item:nth-child(1) .content .button{
+.carousel .list .item:nth-child(1) .content .buttons{
     animation-delay: 1.8s!important;
 }
 /* create animation when next click */
@@ -289,7 +289,7 @@ header a{
 .carousel.prev .list .item:nth-child(2) .content .title,
 .carousel.prev .list .item:nth-child(2) .content .topic,
 .carousel.prev .list .item:nth-child(2) .content .des,
-.carousel.prev .list .item:nth-child(2) .content .button
+.carousel.prev .list .item:nth-child(2) .content .buttons
 {
     animation: contentOut 1.5s linear 1 forwards!important;
 }
